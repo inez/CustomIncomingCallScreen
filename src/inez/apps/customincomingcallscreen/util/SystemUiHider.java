@@ -134,6 +134,7 @@ public abstract class SystemUiHider {
 	 * Toggle the visibility of the system UI.
 	 */
 	public void toggle() {
+		return;
 		if (isVisible()) {
 			hide();
 		} else {
